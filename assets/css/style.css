@@ -405,6 +405,19 @@ footer {
 
   /* END SERVICES */
 
+  /* Stories */
+  #stories-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .story-card {
+    width: 80%;
+    display: flex;
+    align-self: center;
+  }
+  /* END STORIES */
+
   /* Video */
   .video-container {
     top: 100px;
