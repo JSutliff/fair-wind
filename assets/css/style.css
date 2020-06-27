@@ -270,7 +270,8 @@ body {
 .story-card {
   background-color: white;
   color: black;
-  width: 80%;
+  line-height: 1.8;
+  width: 90%;
   padding: 20px;
   margin: 0 auto;
   margin-bottom: 5rem;
@@ -396,9 +397,21 @@ footer {
 
   /* END TOP MENU */
 
+  /* Services */
+  #service-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* END SERVICES */
+
   /* Video */
   .video-container {
     top: 100px;
+  }
+
+  iframe {
+    height: 600px;
   }
   /* END VIDEO */
 }
