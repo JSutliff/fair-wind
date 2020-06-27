@@ -339,7 +339,8 @@ p {
 /* Footer */
 footer {
   background-color: var(--overlay-color);
-  height: 8rem;
+  height: 12rem;
+  margin-top: 5rem;
 }
 
 .section-title {
@@ -360,6 +361,12 @@ footer {
 
 #socials a:hover {
   color: black;
+}
+
+#built-by a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: goldenrod;
 }
 /* END FOOTER */
 
@@ -427,4 +434,8 @@ footer {
     height: 600px;
   }
   /* END VIDEO */
+
+  footer {
+    height: 8.8rem;
+  }
 }
