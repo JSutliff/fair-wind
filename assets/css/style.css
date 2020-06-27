@@ -334,6 +334,10 @@ h3,
 p {
   margin-bottom: 25px;
 }
+
+#contact a {
+  color: black;
+}
 /* END CONTACT */
 
 /* Footer */
