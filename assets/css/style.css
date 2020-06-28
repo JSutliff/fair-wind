@@ -378,8 +378,8 @@ footer {
 }
 
 #logo-container img {
-  width: 5rem;
-  margin: 1.5rem;
+  width: 4rem;
+  margin: 0.5rem;
 }
 
 .section-title {
@@ -493,5 +493,10 @@ footer {
 
   footer {
     height: 8.8rem;
+  }
+
+  #logo-container img {
+    width: 5rem;
+    margin: 1.5rem;
   }
 }
