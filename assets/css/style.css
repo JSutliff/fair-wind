@@ -19,6 +19,10 @@ body {
   background-color: rgba(225, 243, 225, 0.85);
 }
 
+.shadow {
+  box-shadow: 2px 2px 12px 1px rgb(86, 117, 116);
+}
+
 /* Hamburger Menu */
 .btn {
   display: inline-block;
@@ -233,7 +237,7 @@ body {
 
 .content {
   z-index: 2;
-  color: white;
+  color: rgb(160, 216, 214);
 }
 
 .content h1 {
@@ -246,14 +250,16 @@ body {
 
 .cta-btn {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 30px 50px;
   background: var(--overlay-color);
-  color: white;
+  color: rgb(160, 216, 214);
   border-radius: 5px;
-  border: solid #fff 1px;
+  border: solid rgb(160, 216, 214) 1px;
   margin-top: 25px;
   opacity: 0.7;
   text-decoration: none;
+  font-weight: bold;
+  box-shadow: 2px 2px 12px 1px black;
 }
 
 #title {
@@ -261,21 +267,6 @@ body {
 }
 
 /* END SHOWCASE */
-.first-letter {
-  font-size: 50px;
-  line-height: 70px;
-  color: black;
-}
-
-.story-card {
-  background-color: white;
-  color: black;
-  line-height: 1.8;
-  width: 90%;
-  padding: 20px;
-  margin: 0 auto;
-  margin-bottom: 5rem;
-}
 
 /* About */
 #about {
@@ -283,6 +274,13 @@ body {
   margin: 0 auto;
   margin-bottom: 6rem;
 }
+
+.first-letter {
+  font-size: 50px;
+  line-height: 70px;
+  color: black;
+}
+
 /* ABOUT */
 
 /* Services */
@@ -301,6 +299,18 @@ body {
 .service-card i {
   font-size: 4rem;
 }
+
+.service-card:hover {
+  cursor: pointer;
+  color: rgba(160, 216, 214);
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
 /* END SERVICES */
 
 /* Stories */
@@ -309,6 +319,21 @@ body {
   margin: 0 auto;
 }
 
+.story-card {
+  background-color: rgba(160, 216, 214, 0.2);
+  color: black;
+  line-height: 1.8;
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  border: 1px solid rgba(160, 216, 214);
+}
+
+#stories .savings {
+  color: green;
+  font-size: 1.3rem;
+}
 /* END STORIES */
 
 /* Message */
@@ -364,17 +389,22 @@ footer {
 }
 
 #socials {
-  color: #8b8b8b;
+  color: rgba(160, 216, 214);
 }
 
 #socials a {
   text-decoration: none;
-  color: #8b8b8b;
+  /* color: #8b8b8b; */
+  color: rgba(160, 216, 214);
   font-size: 2rem;
 }
 
 #socials a:hover {
-  color: black;
+  color: rgba(160, 216, 214, 0.5);
+}
+
+#built-by {
+  color: #8b8b8b;
 }
 
 #built-by a {
@@ -414,7 +444,8 @@ footer {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.2rem;
-    color: white;
+    color: rgb(160, 216, 214);
+    font-weight: bold;
   }
 
   #top-nav img {
