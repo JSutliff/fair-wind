@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
 }
 
@@ -282,6 +282,10 @@ body {
 }
 
 /* ABOUT */
+#about p {
+  font-weight: 300;
+  line-height: 1.8;
+}
 
 /* Services */
 #services {
@@ -491,8 +495,13 @@ footer {
   }
   /* END VIDEO */
 
+  #contact p {
+    font-weight: 100;
+  }
+
   footer {
     height: 8.8rem;
+    font-weight: 100;
   }
 
   #logo-container img {
