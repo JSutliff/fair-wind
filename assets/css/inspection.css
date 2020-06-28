@@ -23,15 +23,24 @@ main img {
   border: 1px solid rgb(160, 216, 214);
 }
 
-main p {
+.main-p {
   font-weight: 100;
   padding: 50px;
   background-color: white;
   border: 1px solid rgb(160, 216, 214);
 }
 
+.savings {
+  color: green;
+  font-size: 1.3rem;
+}
+
 #benefits {
   margin-top: 75px;
+}
+
+.benefit-description {
+  font-weight: 100;
 }
 
 @media only screen and (min-width: 700px) {
@@ -63,4 +72,33 @@ main p {
     width: 50%;
     height: 400px;
   }
+
+  #benefits {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .benefits-card {
+    width: 60%;
+    margin-right: 0;
+  }
+
+  #descriptor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+  }
+
+  #descriptor-container p {
+    width: 60%;
+  }
+
+  /* #benefits {
+    display: flex;
+    justify-content: center;
+  }
+
+  */
 }
