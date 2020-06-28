@@ -52,6 +52,12 @@ main img {
     align-items: center;
   }
 
+  #top-nav img {
+    margin-top: -2.8rem;
+    width: 5rem;
+    z-index: 2;
+  }
+
   main {
     padding-top: 125px;
     margin-bottom: 75px;
@@ -87,12 +93,13 @@ main img {
   #descriptor-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     justify-items: center;
+    margin-top: 100px;
   }
 
   #descriptor-container p {
-    width: 60%;
+    width: 90%;
   }
 
   /* #benefits {

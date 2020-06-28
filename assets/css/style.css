@@ -313,7 +313,7 @@ body {
 
 .service-card:hover {
   cursor: pointer;
-  color: rgba(160, 216, 214);
+  color: darkgreen;
 }
 
 .grow {
