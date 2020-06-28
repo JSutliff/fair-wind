@@ -372,6 +372,10 @@ p {
 #contact h2 {
   font-weight: 100;
 }
+
+#contact p {
+  font-weight: 100;
+}
 /* END CONTACT */
 
 /* Footer */
@@ -379,6 +383,16 @@ footer {
   background-color: var(--overlay-color);
   height: 12rem;
   margin-top: 5rem;
+}
+
+footer p {
+  width: 90%;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+#built-by {
+  width: 80%;
 }
 
 #logo-container img {
@@ -480,9 +494,13 @@ footer {
 
   .story-card {
     width: 80%;
-    display: flex;
+    display: inline;
     align-self: center;
   }
+
+  /* .story-card {
+    display: inline;
+  } */
   /* END STORIES */
 
   /* Video */
@@ -494,10 +512,6 @@ footer {
     height: 600px;
   }
   /* END VIDEO */
-
-  #contact p {
-    font-weight: 100;
-  }
 
   footer {
     height: 8.8rem;
