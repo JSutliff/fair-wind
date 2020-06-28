@@ -561,6 +561,15 @@ footer p {
     padding-top: 75px;
   }
 
+  #sub-nav li {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  #sub-nav li:hover {
+    background-color: white;
+  }
+
   #sub-nav a {
     color: darkgreen;
   }
