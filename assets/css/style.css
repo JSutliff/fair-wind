@@ -170,7 +170,7 @@ body {
 
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
-  color: #fff;
+  color: rgba(160, 216, 214);
   font-size: 1.5rem;
   padding: 1rem;
 }
