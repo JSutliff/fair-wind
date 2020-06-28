@@ -294,6 +294,11 @@ body {
   margin-bottom: 6rem;
 }
 
+#services a {
+  text-decoration: none;
+  color: black;
+}
+
 .service-card {
   width: 80%;
   margin: 0 auto;
@@ -467,7 +472,7 @@ footer p {
   }
 
   #top-nav img {
-    margin-top: -3.6rem;
+    margin-top: -2.6rem;
     width: 5rem;
     z-index: 2;
   }
