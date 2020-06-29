@@ -537,12 +537,123 @@ footer p {
   }
 }
 
+/* iPhone 5 */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  /* STYLES GO HERE */
   #inspection-cta {
     position: absolute;
     top: 190px;
     right: 70px;
+    width: 10rem;
+  }
+
+  #mitigation-cta {
+    position: absolute;
+    top: 200px;
+    right: 75px;
+    width: 10rem;
+  }
+
+  #insurance-cta {
+    position: absolute;
+    top: 230px;
+    right: 100px;
+    width: 10rem;
+  }
+}
+
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #cta {
+    position: absolute;
+    top: 130px;
+    right: 100px;
+    width: 10rem;
+  }
+
+  #mitigation-cta {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    width: 10rem;
+  }
+
+  #insurance-cta {
+    position: absolute;
+    top: 140px;
+    right: 100px;
+    width: 10rem;
+  }
+}
+
+/* Iphone 6/7/8 */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  #inspection-cta {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    width: 10rem;
+  }
+
+  #mitigation-cta {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    width: 10rem;
+  }
+}
+
+/* iPhone X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  #cta {
+    position: absolute;
+    top: 330px;
+    right: 100px;
+    width: 10rem;
+  }
+
+  #inspection-cta {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    width: 10rem;
+  }
+
+  #mitigation-cta {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    width: 10rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #insurance-cta {
+    position: absolute;
+    top: 190px;
+    right: 300px;
+    width: 10rem;
+  }
+
+  #mitigation-cta {
+    position: absolute;
+    top: 150px;
+    left: 90px;
+    width: 10rem;
+  }
+
+  #testimony {
+    position: absolute;
+    top: 290px;
+    right: 30px;
+    width: 600px;
+    background-color: white;
+    padding: 25px;
+  }
+
+  #inspection-cta {
+    position: absolute;
+    top: 100px;
+    left: 750px;
     width: 10rem;
   }
 }
