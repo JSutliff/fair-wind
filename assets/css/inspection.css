@@ -36,7 +36,7 @@ main img {
 }
 
 .savings {
-  color: green;
+  color: rgb(222, 170, 40);
   font-size: 1.3rem;
 }
 
@@ -80,6 +80,17 @@ main img {
   font-weight: bold;
 }
 
+.final-message {
+  padding: 20px;
+  background-color: white;
+  font-weight: 100;
+  margin-bottom: 100px;
+}
+
+.final-message a {
+  color: rgb(222, 170, 40);
+}
+
 @media only screen and (min-width: 700px) {
   #push-right {
     margin-right: 50px;
@@ -99,6 +110,15 @@ main img {
     top: 200px;
     right: 50px;
     width: 450px;
+    background-color: white;
+    padding: 25px;
+  }
+
+  #inspection-testiony {
+    position: absolute;
+    top: 290px;
+    right: 280px;
+    width: 600px;
     background-color: white;
     padding: 25px;
   }
@@ -173,6 +193,10 @@ main img {
 
   #descriptor-container p {
     width: 90%;
+  }
+
+  #message-container {
+    display: flex;
   }
 
   /* #benefits {

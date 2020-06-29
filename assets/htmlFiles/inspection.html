@@ -46,15 +46,38 @@
   <body>
     <nav class="hide">
       <ul id="top-nav">
-        <img
-          src="../images/hillsborough-wind-mitigation-inspection.png"
-          alt=""
-        />
+        <li>
+          <a href="../../index.html"
+            ><img
+              src="../images/hillsborough-wind-mitigation-inspection.png"
+              alt=""
+          /></a>
+        </li>
 
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#stories">What Our Clients Say</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="../../index.html#about">About</a></li>
+        <li>
+          <div class="dropdown-container">
+            <a href="#" class="dropdown-trigger">
+              Services
+            </a>
+            <div class="dropdown-content" id="sub-nav">
+              <ul>
+                <li class="grow">
+                  <a href="#"><h3>Home Inspection</h3></a>
+                </li>
+
+                <li class="grow">
+                  <a href="./mitigation.html"><h3>Wind Mitigation</h3></a>
+                </li>
+                <li class="grow">
+                  <a href="#"><h3>Insurance Inspections</h3></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a href="../../index.html#stories">What Our Clients Say</a></li>
+        <li><a href="../../index.html#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -68,11 +91,17 @@
         <div>
           <div>
             <ul id="toggleMenu">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#stories">What Our Clients Say</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <img
+                src="../images/hillsborough-wind-mitigation-inspection.png"
+                alt=""
+              />
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="../../index.html#about">About</a></li>
+              <li><a href="../../index.html#services">Services</a></li>
+              <li>
+                <a href="../../index.html#stories">What Our Clients Say</a>
+              </li>
+              <li><a href="../../index.html#contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -80,15 +109,93 @@
     </div>
     <!-- END RESPONSIVE MENU -->
 
-    <nav class="hide">
-      <ul id="top-nav">
-        <img id="nav-logo" src="./assets/images/logo.png" alt="" />
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#stories">What Our Clients Say</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <!-- Main -->
+    <main>
+      <a href="tel:727-278-5148"
+        ><div id="cta" class="hide shadow">
+          <span>Call Today</span>
+          <span>(727)278-5148</span>
+        </div></a
+      >
+
+      <div id="inspection-testiony" class="shadow hidden">
+        <h4>
+          <em>
+            “You can’t do much to detour an oncoming storm, but you can take
+            action now to protect your home and save money. A $250 wind
+            mitigation inspection might be a good place to start. Houses that
+            have been built or improved to withstand windstorms could
+            <span class="savings">qualify for (over) $1,000 in discounts</span>
+            on wind insurance premiums."</em
+          ><br />
+          - Mark Holan of the
+          <h3>St. Petersburg Times</h3>
+        </h4>
+      </div>
+      <h1 class="page-title">Home Inspections</h1>
+      <h2 class="price">Price: $250 under 1800 sq. Ft.</h2>
+      <div class="flex-container">
+        <p class="shadow main-p" id="push-right">
+          Technically exhaustive non-invasive inspection usually performed for
+          new home buyers so they may better understand what they are getting
+          into when buying a home.
+        </p>
+
+        <img
+          class="shadow"
+          id="insurance-img"
+          src="https://www.nachi.org/documents/logos/internachi/internachi_blue_gold.png"
+          alt=""
+        />
+      </div>
+
+      <section id="benefits"></section>
+
+      <section id="descriptor-container">
+        <div class="benefit">
+          <div>
+            <p class="benefit-title">Know What You're Buying</p>
+            <p class="benefit-description">
+              During this time we look at all aspects of the home to determine
+              what condition each of its features are in. We will then provide
+              you with an accurate and unbiased assessment of the property.
+            </p>
+          </div>
+        </div>
+
+        <div class="benefit">
+          <div>
+            <p class="benefit-title">
+              Full Color Report
+            </p>
+            <p class="benefit-description">
+              This report is made up of 15 sections, including kitchen,
+              bathrooms, heat/AC, electrical, roof, exterior areas and more.
+              Within these 15 sections there are over 200 individual items which
+              we evaluate thoroughly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div id="message-container">
+        <p class="shadow" id="insurance-message">
+          If you are present during the inspection we can walk you through and
+          point out any major findings and answer any questions you may have.
+          Education and experience is our best tool and it is our duty to relay
+          that information to you the client, in a clear and detailed way so
+          that you may make an informed decision.
+        </p>
+
+        <p class="shadow final-message">
+          The price for a home inspection in the Tampa Bay area starts at $250
+          for a home under 1800 sq. ft. If the home is larger or you need
+          additional services along with the home inspection
+          <a href="tel:727-278-5148">please call</a>.
+        </p>
+      </div>
+    </main>
+    <!-- END MAIN -->
 
     <!-- Contact -->
     <section id="contact" class="center-content">
