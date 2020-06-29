@@ -271,6 +271,11 @@ body {
   box-shadow: 2px 2px 12px 1px rgb(86, 117, 116);
 }
 
+.cta-btn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 #title {
   margin-bottom: 5rem;
 }
@@ -453,8 +458,7 @@ footer p {
     top: 100px;
     right: 100px;
     width: 10rem;
-    background-color: rgb(250, 185, 32);
-
+    background-color: rgb(222, 170, 40);
     border-radius: 10px;
     color: white;
     z-index: 2;
@@ -462,6 +466,8 @@ footer p {
 
   #cta:hover {
     background-color: rgb(250, 165, 32);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
 
   /* Top Nav & Menu */
