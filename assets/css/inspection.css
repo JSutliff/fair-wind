@@ -41,7 +41,11 @@ main img {
 }
 
 #benefits {
-  margin-top: 75px;
+  margin-top: 100px;
+}
+
+.benefit {
+  margin-bottom: 100px;
 }
 
 .benefit-title {
@@ -58,6 +62,22 @@ main img {
 
 .hidden {
   display: none;
+}
+
+#insurance-message {
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  font-weight: 300;
+  background-color: white;
+}
+
+#insurance-message a {
+  color: rgb(222, 170, 40);
+}
+
+.bold {
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 700px) {
