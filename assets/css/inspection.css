@@ -91,7 +91,7 @@ main img {
   color: rgb(222, 170, 40);
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 770px) {
   #push-right {
     margin-right: 50px;
   }
@@ -206,3 +206,116 @@ main img {
 
   */
 }
+
+/* @media only screen and (min-width: 778px) {
+  #cta {
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    width: 10rem;
+    background-color: rgb(222, 170, 40);
+    border-radius: 10px;
+    color: white;
+    z-index: 2;
+  }
+  #testiony {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    width: 450px;
+    background-color: white;
+    padding: 25px;
+  }
+
+  #inspection-testiony {
+    position: absolute;
+    top: 290px;
+    right: 280px;
+    width: 600px;
+    background-color: white;
+    padding: 25px;
+  }
+
+  .flex-container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 250px;
+  }
+
+  .hidden {
+    display: block;
+  }
+
+  #top-nav a img {
+    margin-top: -1.8rem;
+  }
+
+  main {
+    padding-top: 125px;
+    margin-bottom: 75px;
+  }
+
+  main h1 {
+    margin-bottom: 100px;
+  }
+
+  main p {
+    width: 40%;
+    margin-top: 50px;
+
+    margin-right: 50px;
+  }
+
+  .price {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 75px;
+    margin-top: -75px;
+  }
+
+  #savings-img {
+    width: 50%;
+  }
+
+  #insurance-img {
+    width: 40%;
+    height: 400px;
+  }
+
+  #benefits {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .benefits-card {
+    width: 60%;
+    margin-right: 0;
+  }
+
+  #descriptor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    justify-items: center;
+    margin-top: 100px;
+  }
+
+  #descriptor-container p {
+    width: 90%;
+  }
+
+  #message-container {
+    display: flex;
+  }
+
+  /* #benefits {
+    display: flex;
+    justify-content: center;
+  }
+
+  */
+} */
