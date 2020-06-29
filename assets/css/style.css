@@ -158,6 +158,35 @@ body {
   height: 120px;
   margin-top: -70px;
 }
+
+.cta {
+  background-color: #deaa28;
+  border-radius: 10px;
+  color: #fff;
+  z-index: 2;
+}
+
+#insurance-cta {
+  position: absolute;
+  top: 240px;
+  right: 100px;
+  width: 10rem;
+}
+
+#mitigation-cta {
+  position: absolute;
+  top: 190px;
+  right: 100px;
+  width: 10rem;
+}
+
+#inspection-cta {
+  position: absolute;
+  top: 140px;
+  right: 100px;
+  width: 10rem;
+}
+
 .showcase {
   height: 100vh;
   display: flex;
