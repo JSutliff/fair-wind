@@ -26,6 +26,7 @@ main img {
   width: 80%;
   margin-top: 50px;
   border: 1px solid rgb(160, 216, 214);
+  border-radius: 10px;
 }
 
 .main-p {
@@ -33,6 +34,7 @@ main img {
   padding: 50px;
   background-color: white;
   border: 1px solid rgb(160, 216, 214);
+  border-radius: 10px;
 }
 
 .savings {
@@ -50,7 +52,7 @@ main img {
 
 .benefit-title {
   font-size: 2.5rem;
-  color: rgb(222, 170, 40)
+  color: rgb(222, 170, 40);
 }
 
 .benefit-description {
@@ -198,6 +200,7 @@ main img {
 
   #message-container {
     display: flex;
+    border-radius: 10px;
   }
 
   /* #benefits {
@@ -319,4 +322,3 @@ main img {
   }
 
   */
-} */

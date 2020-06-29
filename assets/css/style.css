@@ -452,7 +452,9 @@ footer p {
   color: goldenrod;
 }
 /* END FOOTER */
-
+.round {
+  border-radius: 10px;
+}
 /* Large Screen Media */
 @media only screen and (min-width: 770px) {
   #cta {
