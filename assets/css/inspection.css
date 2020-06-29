@@ -16,6 +16,15 @@ main {
   font-weight: 100;
   font-size: 2rem;
 } */
+.page-title {
+  font-size: 2rem;
+}
+
+.price {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 75px;
+}
 
 main img {
   width: 80%;
@@ -70,6 +79,13 @@ main img {
     margin-top: 50px;
 
     margin-right: 50px;
+  }
+
+  .price {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 75px;
+    margin-top: -75px;
   }
 
   #main-img {
