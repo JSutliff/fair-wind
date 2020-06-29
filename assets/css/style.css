@@ -166,6 +166,13 @@ body {
   z-index: 2;
 }
 
+#cta {
+  position: absolute;
+  top: 270px;
+  right: 100px;
+  width: 10rem;
+}
+
 #insurance-cta {
   position: absolute;
   top: 240px;
@@ -401,16 +408,26 @@ footer p {
     top: 100px;
     right: 100px;
     width: 10rem;
-    background-color: #deaa28;
-    border-radius: 10px;
-    color: #fff;
-    z-index: 2;
   }
   #cta:hover {
     background-color: #faa520;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+  .cta-placement-left {
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    width: 10rem;
+  }
+
+  #mitigation-cta {
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    width: 10rem;
+  }
+
   .hide {
     display: block;
     position: absolute;
