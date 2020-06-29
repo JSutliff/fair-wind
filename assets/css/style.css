@@ -536,3 +536,13 @@ footer p {
     transform: translateY(4px);
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  /* STYLES GO HERE */
+  #inspection-cta {
+    position: absolute;
+    top: 190px;
+    right: 70px;
+    width: 10rem;
+  }
+}
