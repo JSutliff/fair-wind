@@ -460,6 +460,7 @@ footer p {
     display: none;
     background-color: rgb(160, 216, 214, 0.97);
     border: 1px solid #006400;
+    border-radius: 10px;
     color: #006400;
     box-shadow: 3px 3px 3px 2px #567574;
   }
@@ -478,8 +479,14 @@ footer p {
   #sub-nav li:hover {
     background-color: #fff;
     box-shadow: 2px 2px 12px 1px #567574;
+    border-radius: 10px;
   }
   #sub-nav a {
     color: #006400;
+  }
+
+  #sub-nav li:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
 }
