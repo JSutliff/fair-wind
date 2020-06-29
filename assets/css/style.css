@@ -265,6 +265,7 @@ body {
   opacity: 0.7;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .cta-btn:hover {
@@ -354,7 +355,7 @@ body {
 }
 
 #stories .savings {
-  color: green;
+  color: rgb(222, 170, 40);
   font-size: 1.3rem;
 }
 /* END STORIES */
