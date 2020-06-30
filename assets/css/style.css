@@ -158,39 +158,6 @@ body {
   height: 120px;
   margin-top: -70px;
 }
-
-.cta {
-  background-color: #deaa28;
-  border-radius: 10px;
-  color: #fff;
-  z-index: 2;
-  position: relative;
-  top: -50px;
-  left: 70px;
-  width: 10rem;
-}
-
-#insurance-cta {
-  position: absolute;
-  top: 240px;
-  right: 100px;
-  width: 10rem;
-}
-
-#mitigation-cta {
-  position: absolute;
-  top: 190px;
-  right: 100px;
-  width: 10rem;
-}
-
-#inspection-cta {
-  position: absolute;
-  top: 140px;
-  right: 100px;
-  width: 10rem;
-}
-
 .showcase {
   height: 100vh;
   display: flex;
@@ -405,30 +372,16 @@ footer p {
     top: 100px;
     right: 100px;
     width: 10rem;
+    background-color: #deaa28;
+    border-radius: 10px;
+    color: #fff;
+    z-index: 2;
   }
   #cta:hover {
     background-color: #faa520;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
-  .cta-placement-left {
-    position: absolute;
-    top: 280px;
-    left: 250px;
-    width: 10rem;
-  }
-
-  .cta a {
-    text-decoration: none;
-  }
-
-  #mitigation-cta {
-    position: absolute;
-    top: 280px;
-    left: 250px;
-    width: 10rem;
-  }
-
   .hide {
     display: block;
     position: absolute;
@@ -537,73 +490,3 @@ footer p {
     transform: translateY(4px);
   }
 }
-
-  /* .cta {
-    position: absolute;
-    top: 330px;
-    right: 100px;
-    width: 10rem;
-  } */
-
-  #inspection-cta {
-    position: absolute;
-    top: 150px;
-    right: 100px;
-    width: 10rem;
-  }
-
-  #mitigation-cta {
-    position: absolute;
-    top: 200px;
-    right: 100px;
-    width: 10rem;
-  }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  #insurance-cta {
-    position: absolute;
-    top: 190px;
-    right: 300px;
-    width: 10rem;
-  }
-
-  #mitigation-cta {
-    position: absolute;
-    top: 150px;
-    left: 90px;
-    width: 10rem;
-  }
-
-  #testimony {
-    position: absolute;
-    top: 290px;
-    right: 30px;
-    width: 600px;
-    background-color: white;
-    padding: 25px;
-  }
-
-  #inspection-cta {
-    position: absolute;
-    top: 100px;
-    left: 750px;
-    width: 10rem;
-  }
-} 
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) { 
-  .cta {
-    background-color: #deaa28;
-    border-radius: 10px;
-    color: #fff;
-    z-index: 2;
-    position: relative;
-    top: -50px;
-    left: 70px;
-    width: 10rem;
-  }
- }
