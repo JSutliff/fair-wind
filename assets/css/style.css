@@ -164,12 +164,9 @@ body {
   border-radius: 10px;
   color: #fff;
   z-index: 2;
-}
-
-#cta {
-  position: absolute;
-  top: 270px;
-  right: 100px;
+  position: relative;
+  top: -50px;
+  left: 70px;
   width: 10rem;
 }
 
@@ -421,6 +418,10 @@ footer p {
     width: 10rem;
   }
 
+  .cta a {
+    text-decoration: none;
+  }
+
   #mitigation-cta {
     position: absolute;
     top: 280px;
@@ -537,79 +538,12 @@ footer p {
   }
 }
 
-/* iPhone 5 */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  #inspection-cta {
-    position: absolute;
-    top: 190px;
-    right: 70px;
-    width: 10rem;
-  }
-
-  #mitigation-cta {
-    position: absolute;
-    top: 200px;
-    right: 75px;
-    width: 10rem;
-  }
-
-  #insurance-cta {
-    position: absolute;
-    top: 230px;
-    right: 100px;
-    width: 10rem;
-  }
-}
-
-/* iPad */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #cta {
-    position: absolute;
-    top: 130px;
-    right: 100px;
-    width: 10rem;
-  }
-
-  #mitigation-cta {
-    position: absolute;
-    top: 150px;
-    right: 100px;
-    width: 10rem;
-  }
-
-  #insurance-cta {
-    position: absolute;
-    top: 140px;
-    right: 100px;
-    width: 10rem;
-  }
-}
-
-/* Iphone 6/7/8 */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  #inspection-cta {
-    position: absolute;
-    top: 150px;
-    right: 100px;
-    width: 10rem;
-  }
-
-  #mitigation-cta {
-    position: absolute;
-    top: 200px;
-    right: 100px;
-    width: 10rem;
-  }
-}
-
-/* iPhone X */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
-  #cta {
+  /* .cta {
     position: absolute;
     top: 330px;
     right: 100px;
     width: 10rem;
-  }
+  } */
 
   #inspection-cta {
     position: absolute;
@@ -656,4 +590,20 @@ footer p {
     left: 750px;
     width: 10rem;
   }
-}
+} 
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+  .cta {
+    background-color: #deaa28;
+    border-radius: 10px;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+    top: -50px;
+    left: 70px;
+    width: 10rem;
+  }
+ }

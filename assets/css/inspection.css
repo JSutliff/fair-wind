@@ -108,14 +108,14 @@ main img {
     color: white;
     z-index: 2;
   }
-  /* #testimony {
+  #testimony {
     position: absolute;
     top: 200px;
     right: 50px;
     width: 450px;
     background-color: white;
     padding: 25px;
-  } */
+  }
 
   #inspection-testimony {
     position: absolute;
