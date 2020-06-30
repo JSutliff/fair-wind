@@ -108,7 +108,7 @@ main img {
     color: white;
     z-index: 2;
   }
-  #testiony {
+  #testimony {
     position: absolute;
     top: 200px;
     right: 50px;
@@ -117,7 +117,7 @@ main img {
     padding: 25px;
   }
 
-  #inspection-testiony {
+  #inspection-testimony {
     position: absolute;
     top: 290px;
     right: 280px;
