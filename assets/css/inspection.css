@@ -94,6 +94,10 @@ main img {
   color: rgb(222, 170, 40);
 }
 
+.hide-content {
+  display: none;
+}
+
 @media only screen and (min-width: 770px) {
   #push-right {
     margin-right: 50px;
