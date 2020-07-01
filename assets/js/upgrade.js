@@ -69,15 +69,12 @@ document.addEventListener(
     if (!event.target.matches(".education-btn")) return;
     const currentDisplay = event.target.dataset.name;
     const { title, paragraphs, images } = pages[currentDisplay];
-    console.log("paragraphs length:", paragraphs.length);
 
     for (let i = 5; i > paragraphs.length; i--) {
       let educationParagraph = document.getElementById(
         "education-paragraph-" + (i - 1)
       );
-
       educationParagraph.classList.add("hide-content");
-      // console.log(educationParagraph);
     }
 
     for (let i = 0; i < paragraphs.length; i++) {
@@ -85,12 +82,6 @@ document.addEventListener(
         .getElementById("education-paragraph-" + i)
         .classList.remove("hide-content");
     }
-
-    // if (paragraphs.length < 3) {
-    //   paragraph2.classList.add("hide-content");
-    // } else {
-    //   paragraph2.classList.remove("hide-content");
-    // }
 
     if (images.length < 2) {
       img1.classList.add("hide-content");
@@ -102,7 +93,6 @@ document.addEventListener(
     }
     for (let i = 0; i < images.length; i++) {
       let currentImg = document.getElementById("img-" + i);
-      console.log(i);
       currentImg.src = images[i];
       currentImg.classList.remove("hide-content");
       currentImg.classList.add("show-content");

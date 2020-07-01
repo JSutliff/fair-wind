@@ -14,7 +14,7 @@ var pages = {
     paragraphs: [
       "All roof coverings over the main living area of the home are subject to inspection. If the covering(s) meets the 2001 Florida Building Code or the 1994 South Florida Building Code you are able to receive a discount.",
       "To determine if your roof meets these codes you must be able to show proof that your home or roof was constructed after 1994 and meets the SFB Code, or February 28, 2002  and meets the FBC Code. This can be done with receipts or contracts from roofers, types of covering installed on the roof, product approval numbers or a date of construction.",
-      "Any shingles installed or roofs constructed after March 1, 2002 automatically meets the 2001 Florida Building Code and will qualify you for a discount. The minimum discount you may receive by meeting the 2001 FBC on Roof Covering is approximately 7%.",
+      "Any shingles installed or roofs constructed after March 1, 2002 automatically meets the 2001 Florida Building Code and will qualify you for a discount. <span class='savings'>The minimum discount you may receive by meeting the 2001 FBC on Roof Covering is approximately 7%.</span>",
     ],
     images: ["../images/education/pasco-wind-mitigation-covering.gif"],
   },
@@ -22,7 +22,7 @@ var pages = {
     title: "Roof Deck Attachment",
     paragraphs: [
       "When we look at the Roof Attachment we will be looking at four different items. The thickness and material of the roof as well as the nail size and spacing. We determine the thickness of the material by measuring it with a marked tool and the type of material by looking at the stamp on it. We determine the nail size by looking for one that has missed the truss and the spacing by measuring with a magnetic tool.",
-      "To receive the best discount for this category you must have ½” plywood or OSB roof sheathing attached by 8d nails spaced at 6” apart, or batten decking supporting wood shakes or shingles. The minimum discount for meeting these qualifications approximately 9%.",
+      "To receive the best discount for this category you must have ½” plywood or OSB roof sheathing attached by 8d nails spaced at 6” apart, or batten decking supporting wood shakes or shingles. <span class='savings'>The minimum discount for meeting these qualifications approximately 9%.</span>",
     ],
     images: [
       "../images/education/hillsborough-wind-mitigation-roof-attachment.jpg",
@@ -34,7 +34,7 @@ var pages = {
     paragraphs: [
       "When looking at the Roof to Wall Attachment we hope to determine which types of connections your roof has to the wall it is sitting on. The most common type, which many homes have already have are clips. They can usually be seen in the attic or sometimes outside through the soffit.",
       "We need to verify that your home has these or another type of reinforcing tie down and you will be eligible for a discount. Other types include toe nails, single wraps, double wraps or structural connections such as anchor bolts.",
-      "The minimum discount for clips, which most homes in this area have, is approximately 18%.",
+      "<i class='material-icons'>attach_money</i><span class='savings'>The minimum discount for clips, which most homes in this area have, is approximately 18%.</span><i class='material-icons'>attach_money</i>",
     ],
     images: ["../images/education/tampa-wind-mitigation-roof.jpg"],
   },
@@ -42,7 +42,7 @@ var pages = {
     title: "Roof Geometry",
     paragraphs: [
       "Roof Geometry is determined by the shape of your roof. Classifications are Hip, Flat, and Other. To achieve a Hip roof designation, 90% or more of the roof has to be hip in shape, like the photograph below. If you have a hip roof you are eligible for a significant discount. This is because the shape of your roof determines how wind flows around and over it. It has been proven that hip roofs carry these wind loads the best.",
-      "If you have a hip roof you are eligible for a minimum discount of around 28%.",
+      "If you have a hip roof you are eligible for a <span class='savings'>minimum discount of around 28%.</span>",
     ],
     images: ["../images/education/pinellas-wind-mitigation-geometry.jpg"],
   },
@@ -50,7 +50,7 @@ var pages = {
     title: "Secondary Water Resistance",
     paragraphs: [
       "If you have a hip roof and Secondary Water Resistance installed on it you are able to receive a very large discount to the wind portion of your homeowners insurance. This is difficult to determine unless it is sealed from the inside by foam SWR barrier. You could also have proof of it being installed when your home was re-roofed such as bills or contracts from your roofer.",
-      "A hip roof with SWR will receive approximately 32% discount while any other roof shapes with SWR receive 6%.",
+      "A hip roof with SWR will receive <span class='savings'>approximately 32% discount</span> while any other roof shapes with SWR receive 6%.",
     ],
     images: [
       "../images/education/stpetersburg-wind-mitigation-water.jpg",
@@ -60,7 +60,7 @@ var pages = {
   opening: {
     title: "Opening Protection",
     paragraphs: [
-      "The last category is Opening Protections. To be certified as having hurricane resistant opening protections all openings must be protected by impact resistant coverings. They must meet the requirements of the Miami-Dade County PA 201, 202 and 203, Florida Building Code 201, 202 and 203, ASTM 1886 and ASTM E 1996 (Missile Level C—9 lb). If you have hurricane shutters they should have these codes on them or have been supplied when you purchased them. If you meet these requirements you are eligible for a minimum 39% insurance reduction!",
+      "The last category is Opening Protections. To be certified as having hurricane resistant opening protections all openings must be protected by impact resistant coverings. They must meet the requirements of the Miami-Dade County PA 201, 202 and 203, Florida Building Code 201, 202 and 203, ASTM 1886 and ASTM E 1996 (Missile Level C—9 lb). If you have hurricane shutters they should have these codes on them or have been supplied when you purchased them. If you meet these requirements you are eligible for a <span class='savings'>minimum 39% insurance reduction!</span>",
       "You can also receive a discount for having plywood shutters you can build yourself.  They must meet Section 1609 and Table 1609.1.2 of the 2007 Florida Building Code to be eligible for a discount. Click here for a video tutorial on how to build these yourself.",
     ],
     images: [
@@ -84,9 +84,9 @@ document.addEventListener(
     if (images.length < 2) {
       img1.classList.add("hide-content");
     }
-    pageTitleElem.textContent = title;
+    pageTitleElem.text = title;
     for (let i = 0; i < paragraphs.length; i++) {
-      document.getElementById("education-paragraph-" + i).textContent =
+      document.getElementById("education-paragraph-" + i).innerHTML =
         pages[currentDisplay].paragraphs[i];
     }
     for (let i = 0; i < images.length; i++) {

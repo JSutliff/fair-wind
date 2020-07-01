@@ -25,14 +25,21 @@
   #education-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
   }
 
   #page-title {
     margin-top: 100px;
   }
 
+  #education-paragraph-0 {
+    width: 500px;
+  }
+
   #education-paragraph-1 {
     margin-top: -50px;
+    width: 500px;
   }
 
   .education-img {
