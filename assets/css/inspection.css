@@ -52,7 +52,7 @@ main img {
 
 .benefit-title {
   font-size: 2.5rem;
-  color: rgb(222, 170, 40);
+  color: rgb(160, 216, 214);
 }
 
 .benefit-description {
@@ -118,14 +118,16 @@ main img {
   margin: 15px;
   padding: 15px;
   color: white;
-  background-color: #deaa28;
-  border: 1px solid rgb(160, 216, 214);
+  background-color: rgb(160, 216, 214);
+  border: 1px solid rgb(222, 170, 40);
+  color: black;
   width: 80%;
 }
 
 @media only screen and (min-width: 770px) {
   #push-right {
     margin-right: 50px;
+    margin-top: -90px;
   }
   #cta {
     position: absolute;
@@ -202,6 +204,7 @@ main img {
   #insurance-img {
     width: 40%;
     height: 400px;
+    margin-bottom: 150px;
   }
 
   #benefits {
@@ -220,7 +223,8 @@ main img {
     justify-content: space-between;
     align-items: start;
     justify-items: center;
-    margin-top: 100px;
+    margin-top: 350px;
+    margin-bottom: -250px;
   }
 
   #descriptor-container p {
