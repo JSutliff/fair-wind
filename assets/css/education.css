@@ -18,6 +18,10 @@
   cursor: pointer;
 }
 @media only screen and (min-width: 770px) {
+  #button-container {
+    display: flex;
+  }
+
   #education-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
