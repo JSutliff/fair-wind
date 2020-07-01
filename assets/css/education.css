@@ -20,14 +20,21 @@
 @media only screen and (min-width: 770px) {
   #button-container {
     display: flex;
+    margin: 0 auto;
+    justify-content: center;
   }
 
   #education-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* width: 80%; */
+    width: 92%;
     margin: 0 auto;
     margin-top: -80px;
+  }
+
+  .education-btn {
+    width: 92%;
   }
 
   #page-title {
