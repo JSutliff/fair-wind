@@ -38,7 +38,14 @@
   }
 
   #education-paragraph-1 {
-    margin-top: -50px;
+    width: 500px;
+  }
+
+  #education-paragraph-2 {
+    width: 500px;
+  }
+
+  #education-paragraph-3 {
     width: 500px;
   }
 
