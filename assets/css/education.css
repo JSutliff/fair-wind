@@ -27,6 +27,7 @@
     grid-template-columns: 1fr 1fr;
     /* width: 80%; */
     margin: 0 auto;
+    margin-top: -80px;
   }
 
   #page-title {
@@ -58,10 +59,10 @@
   }
 
   #img-0 {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   #img-1 {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
