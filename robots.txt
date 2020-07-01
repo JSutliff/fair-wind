@@ -1,5 +1,0 @@
-# Group 1
-User-agent: *
-Allow: /
-
-Sitemap: http://fairwindinspections.com.s3-website-us-west-1.amazonaws.com/sitemap.xml

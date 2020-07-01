@@ -1,3 +1,41 @@
 .hide-content {
   display: none;
 }
+
+#img-0 {
+  margin-bottom: 100px;
+}
+
+.main-p {
+  margin-bottom: 100px;
+}
+
+#img-1 {
+  margin-bottom: 100px;
+}
+
+#button-container button:hover {
+  cursor: pointer;
+}
+@media only screen and (min-width: 770px) {
+  #education-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #page-title {
+    margin-top: 100px;
+  }
+
+  #education-paragraph-1 {
+    margin-top: -50px;
+  }
+
+  .education-img {
+    width: 80%;
+  }
+
+  .main-p {
+    width: 80%;
+  }
+}

@@ -10,6 +10,7 @@
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
   font-size: 1.1rem;
+  scroll-behavior: smooth;
 }
 body {
   line-height: 1.4;
@@ -319,7 +320,7 @@ p {
 }
 footer {
   background-color: var(--overlay-color);
-  height: 12rem;
+  height: 22rem;
   margin-top: 5rem;
 }
 footer p {

@@ -16,8 +16,7 @@ var pages = {
       "To determine if your roof meets these codes you must be able to show proof that your home or roof was constructed after 1994 and meets the SFB Code, or February 28, 2002  and meets the FBC Code. This can be done with receipts or contracts from roofers, types of covering installed on the roof, product approval numbers or a date of construction.",
       "Any shingles installed or roofs constructed after March 1, 2002 automatically meets the 2001 Florida Building Code and will qualify you for a discount. The minimum discount you may receive by meeting the 2001 FBC on Roof Covering is approximately 7%.",
     ],
-
-    imgages: ["../images/pasco-wind-mitigation-education-covering.gif"],
+    images: ["../images/education/pasco-wind-mitigation-covering.gif"],
   },
   attachment: {
     title: "Roof Deck Attachment",
@@ -26,8 +25,8 @@ var pages = {
       "To receive the best discount for this category you must have ½” plywood or OSB roof sheathing attached by 8d nails spaced at 6” apart, or batten decking supporting wood shakes or shingles. The minimum discount for meeting these qualifications approximately 9%.",
     ],
     images: [
-      "../images/clearwater-wind-mitigation-education.gif",
-      "../images/clearwater-wind-mitigation-education.gif",
+      "../images/education/hillsborough-wind-mitigation-roof-attachment.jpg",
+      "../images/education/hillsborough-wind-mitigation-nail.jpg",
     ],
   },
   roof: {
@@ -37,10 +36,7 @@ var pages = {
       "We need to verify that your home has these or another type of reinforcing tie down and you will be eligible for a discount. Other types include toe nails, single wraps, double wraps or structural connections such as anchor bolts.",
       "The minimum discount for clips, which most homes in this area have, is approximately 18%.",
     ],
-    images: [
-      "../images/clearwater-wind-mitigation-education.gif",
-      "../images/clearwater-wind-mitigation-education.gif",
-    ],
+    images: ["../images/education/tampa-wind-mitigation-roof.jpg"],
   },
   geometry: {
     title: "Roof Geometry",
@@ -48,10 +44,7 @@ var pages = {
       "Roof Geometry is determined by the shape of your roof. Classifications are Hip, Flat, and Other. To achieve a Hip roof designation, 90% or more of the roof has to be hip in shape, like the photograph below. If you have a hip roof you are eligible for a significant discount. This is because the shape of your roof determines how wind flows around and over it. It has been proven that hip roofs carry these wind loads the best.",
       "If you have a hip roof you are eligible for a minimum discount of around 28%.",
     ],
-    images: [
-      "../images/clearwater-wind-mitigation-education.gif",
-      "../images/clearwater-wind-mitigation-education.gif",
-    ],
+    images: ["../images/education/pinellas-wind-mitigation-geometry.jpg"],
   },
   water: {
     title: "Secondary Water Resistance",
@@ -60,8 +53,8 @@ var pages = {
       "A hip roof with SWR will receive approximately 32% discount while any other roof shapes with SWR receive 6%.",
     ],
     images: [
-      "../images/clearwater-wind-mitigation-education.gif",
-      "../images/clearwater-wind-mitigation-education.gif",
+      "../images/education/stpetersburg-wind-mitigation-water.jpg",
+      "../images/education/stpetersburg-wind-mitigation-hip.jpg",
     ],
   },
   opening: {
@@ -71,53 +64,38 @@ var pages = {
       "You can also receive a discount for having plywood shutters you can build yourself.  They must meet Section 1609 and Table 1609.1.2 of the 2007 Florida Building Code to be eligible for a discount. Click here for a video tutorial on how to build these yourself.",
     ],
     images: [
-      "../images/clearwater-wind-mitigation-education.gif",
-      "../images/clearwater-wind-mitigation-education.gif",
+      "../images/education/largo-wind-mitigation-window.jpg",
+      "../images/education/largo-wind-mitigation-openings.jpg",
     ],
   },
 };
 
-function handleClick() {
-  console.log(this);
-}
-
 document.addEventListener(
   "click",
   function (event) {
-    // If the clicked element doesn't have the right selector
     if (!event.target.matches(".education-btn")) return;
-    let currentDisplay = event.target.dataset.name;
-    let { title, paragraphs, images } = pages[currentDisplay];
-    //If paragraphs.length < 3
-    //hide third paragraph from page
+    const currentDisplay = event.target.dataset.name;
+    const { title, paragraphs, images } = pages[currentDisplay];
     if (paragraphs.length < 3) {
       paragraph2.classList.add("hide-content");
     } else {
       paragraph2.classList.remove("hide-content");
     }
-
+    if (images.length < 2) {
+      img1.classList.add("hide-content");
+    }
     pageTitleElem.textContent = title;
     for (let i = 0; i < paragraphs.length; i++) {
       document.getElementById("education-paragraph-" + i).textContent =
         pages[currentDisplay].paragraphs[i];
     }
-    console.log(currentDisplay);
+    for (let i = 0; i < images.length; i++) {
+      let currentImg = document.getElementById("img-" + i);
+      console.log(i);
+      currentImg.src = images[i];
+      currentImg.classList.remove("hide-content");
+      currentImg.classList.add("show-content");
+    }
   },
   false
 );
-
-// coveringBtn.addEventListener("click", handleClick);
-// attachmentBtn.addEventListener("click", handleClick);
-
-// $(".educational-btn").on("click", function () {
-//   var currentObj = $(this).text().trim().toLowerCase();
-//   console.log(currentObj.length);
-//   console.log(pages[currentObj]);
-//   $("#page-title").text(pages[currentObj].title);
-//   $("#education-paragraph-0").text(pages[currentObj].paragraph0Text);
-// });
-
-// $("#inputBtn").on("click", function () {
-//   console.log($("#getUser").val());
-//   console.log($("#getUser").val(""));
-// });
