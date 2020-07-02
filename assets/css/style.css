@@ -356,6 +356,16 @@ footer p {
 #socials a:hover {
   color: rgba(160, 216, 214, 0.5);
 }
+
+#video-by {
+  color: #8b8b8b;
+}
+
+#video-by a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #daa520;
+}
 #built-by {
   color: #8b8b8b;
 }
