@@ -13,8 +13,8 @@ main {
 } */
 .page-title {
   font-size: 3rem;
-  margin-bottom: 100px;
-  color: rgb(160, 216, 214);
+  margin-bottom: 50px;
+  color: darkgreen;
 }
 
 .price {
