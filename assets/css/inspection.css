@@ -153,7 +153,7 @@ main img {
   #inspection-testimony {
     position: absolute;
     top: 290px;
-    right: 280px;
+    right: 130px;
     width: 600px;
     background-color: white;
     padding: 25px;
@@ -165,7 +165,7 @@ main img {
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    padding-top: 250px;
+    padding-top: 150px;
   }
 
   .hidden {
@@ -177,7 +177,7 @@ main img {
   }
 
   main {
-    padding-top: 125px;
+    padding-top: 85px;
     margin-bottom: 75px;
   }
 
