@@ -16,7 +16,7 @@ var pages = {
       "To determine if your roof meets these codes you must be able to show proof that your home or roof was constructed after 1994 and meets the SFB Code, or February 28, 2002  and meets the FBC Code. This can be done with receipts or contracts from roofers, types of covering installed on the roof, product approval numbers or a date of construction.",
       "Any shingles installed or roofs constructed after March 1, 2002 automatically meets the 2001 Florida Building Code and will qualify you for a discount. <span class='savings'>The minimum discount you may receive by meeting the 2001 FBC on Roof Covering is approximately 7%.</span>",
     ],
-    images: ["../images/education/pasco-wind-mitigation-covering.gif"],
+    images: ["../Website images/Roof Covering.gif"],
   },
   attachment: {
     title: "Roof Deck Attachment",
