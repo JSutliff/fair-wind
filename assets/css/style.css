@@ -402,6 +402,7 @@ footer p {
   #top-nav li {
     position: relative;
     top: -1rem;
+    padding-top: 12px;
   }
   #top-nav a {
     color: #333;
