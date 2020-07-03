@@ -237,6 +237,10 @@ body {
   margin-bottom: 6rem;
   margin-top: -7.5rem;
 }
+
+.contact-number {
+  color: #deaa28;
+}
 .first-letter {
   font-size: 50px;
   line-height: 70px;
