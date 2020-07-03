@@ -18,7 +18,7 @@ body {
   background-color: rgba(225, 243, 225, 0.85);
 }
 .shadow {
-  box-shadow: 2px 2px 12px 1px #567574;
+  box-shadow: 2px 8px 12px 1px rgba(86, 117, 116, 0.45);
 }
 .btn {
   display: inline-block;
