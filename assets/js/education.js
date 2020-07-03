@@ -84,14 +84,15 @@ document.addEventListener(
     if (images.length < 2) {
       img1.classList.add("hide-content");
     }
-    pageTitleElem.text = title;
+
+    pageTitleElem.textContent = title;
+
     for (let i = 0; i < paragraphs.length; i++) {
       document.getElementById("education-paragraph-" + i).innerHTML =
         pages[currentDisplay].paragraphs[i];
     }
     for (let i = 0; i < images.length; i++) {
       let currentImg = document.getElementById("img-" + i);
-      console.log(i);
       currentImg.src = images[i];
       currentImg.classList.remove("hide-content");
       currentImg.classList.add("show-content");
@@ -99,3 +100,5 @@ document.addEventListener(
   },
   false
 );
+
+console.log("logged");
