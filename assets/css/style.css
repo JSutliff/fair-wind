@@ -324,7 +324,7 @@ p {
 }
 footer {
   background-color: var(--overlay-color);
-  height: 22rem;
+  height: 12rem;
   margin-top: 5rem;
 }
 footer p {
