@@ -71,8 +71,18 @@ main img {
 
 #insurance-message {
   padding: 10px;
-  margin: 0 auto;
   margin-bottom: 100px;
+  margin-top: -100px;
+  font-weight: 300;
+  background-color: white;
+}
+
+#insurance-testimony {
+  padding: 10px;
+  width: 45%;
+  position: absolute;
+  right: 100px;
+  bottom: -1000px;
   margin-top: -100px;
   font-weight: 300;
   background-color: white;
@@ -151,10 +161,19 @@ main img {
     padding: 25px;
   }
 
+  #mitigation-testimony {
+    position: absolute;
+    top: 335px;
+    right: 150px;
+    width: 450px;
+    background-color: white;
+    padding: 25px;
+  }
+
   #inspection-testimony {
     position: absolute;
-    top: 290px;
-    right: 375px;
+    top: 250px;
+    right: 400px;
     width: 600px;
     background-color: white;
     padding: 25px;
@@ -196,7 +215,14 @@ main img {
   .price {
     font-weight: 300;
     font-size: 2.5rem;
-    margin-bottom: 75px;
+    margin-bottom: 60px;
+    margin-top: -45px;
+  }
+
+  #inspection-price {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 325px;
     margin-top: -45px;
   }
 

@@ -209,7 +209,7 @@ body {
 }
 .cta-btn {
   display: inline-block;
-  padding: 30px 50px;
+  padding: 0.75rem 1rem;
   background: var(--overlay-color);
   color: #a0d8d6;
   border-radius: 5px;
