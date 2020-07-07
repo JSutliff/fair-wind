@@ -30,7 +30,7 @@ var pages = {
        4) OR a double metal wrap on every truss with 3 nails on one side and 1 nail on the other (Picture 4)
        5) OR anchor bolts, or a concrete roof (Picture 5)`,
     ],
-    images: [],
+    images: ["../Website images/Clip.JPG", "../Website images/Clips.JPG"],
   },
   section6: {
     title: "Secondary Water Resistance",
@@ -38,7 +38,7 @@ var pages = {
       "To meet Section 8, titled Secondary Water Resistance (SWR), your home must have a self adhering polymer modified bitumen roofing underlayment applied directly to the sheathing. This would involve replacing your roof (See Section 2 & 3).",
       "Another, yet less commonly utilized way to meet the SWR Section is by having a foam SWR applied as a secondary means to water intrusion. This involves spraying foam at the point where the truss meets the roof deck. This is not hard to do but takes some time and should be done by a licensed contractor.",
     ],
-    images: ["../images/education/tampa-wind-mitigation-roof.jpg"],
+    images: ["../Website images/FoamSeal.JPG", "../Website images/SWR.JPG"],
   },
   section7: {
     title: "Opening Protection",
@@ -49,17 +49,14 @@ var pages = {
       "The third category is for openings that are covered with anything that is not rated, such as non-rated shutters or products that cannot be identified.",
       "The fourth category is for wood panels that are quite easy to build and install. Homeowners with basic knowledge and tools can build wood panels to receive a discount. These panels must meet Section 1609 and Table 1609.1.4 of the 2007 Florida Building Code to be eligible for a discount. There is a tutorial video which can be seen here which teaches you how to build these. If you already have these they must be on site when we come to inspect your home to receive the discount.",
     ],
-    images: ["../images/education/pinellas-wind-mitigation-geometry.jpg"],
+    images: [],
   },
   strengthening: {
-    title: "Secondary Water Resistance",
+    title: "Gable End Bracing",
     paragraphs: [
       "No longer on the new form as of Feb 1, 2012 Gable End Bracing is something you can do to strengthen the gable ends in your home. If you have gable ends and they are not braced this is a relatively easy upgrade that can be done to your home. Some homeowners with knowledge of construction and woodworking may even be able to do this themselves, although it is not recommended. Please contact myself, a licensed roofing contractor or general contractor to go into more detail about bracing gable ends. Here are some pictures of common types of gable end bracing.",
     ],
-    images: [
-      "../images/education/stpetersburg-wind-mitigation-water.jpg",
-      "../images/education/stpetersburg-wind-mitigation-hip.jpg",
-    ],
+    images: ["../Website images/Xbrace.JPG", "../Website images/Xbrace2.JPG"],
   },
 };
 
