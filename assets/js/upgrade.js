@@ -30,7 +30,7 @@ var pages = {
        4) OR a double metal wrap on every truss with 3 nails on one side and 1 nail on the other (Picture 4)
        5) OR anchor bolts, or a concrete roof (Picture 5)`,
     ],
-    images: ["../Website images/Clip.JPG", "../Website images/Clips.JPG"],
+    images: ["../Website images/Clip.JPG", "../Website images/Clips.jpg"],
   },
   section6: {
     title: "Secondary Water Resistance",
