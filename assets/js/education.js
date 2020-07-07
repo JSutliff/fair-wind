@@ -25,8 +25,8 @@ var pages = {
       "To receive the best discount for this category you must have ½” plywood or OSB roof sheathing attached by 8d nails spaced at 6” apart, or batten decking supporting wood shakes or shingles. <span class='savings'>The minimum discount for meeting these qualifications approximately 9%.</span>",
     ],
     images: [
-      "../images/education/hillsborough-wind-mitigation-roof-attachment.jpg",
-      "../images/education/hillsborough-wind-mitigation-nail.jpg",
+      "../Website images/spacing.jpg",
+      "../Website images/Deck Thickness Photo 1 Inch Boards.JPG",
     ],
   },
   roof: {
@@ -36,7 +36,7 @@ var pages = {
       "We need to verify that your home has these or another type of reinforcing tie down and you will be eligible for a discount. Other types include toe nails, single wraps, double wraps or structural connections such as anchor bolts.",
       "<i class='material-icons'>attach_money</i><span class='savings'>The minimum discount for clips, which most homes in this area have, is approximately 18%.</span><i class='material-icons'>attach_money</i>",
     ],
-    images: ["../images/education/tampa-wind-mitigation-roof.jpg"],
+    images: ["../Website images/Clips.jpg"],
   },
   geometry: {
     title: "Roof Geometry",
@@ -44,7 +44,7 @@ var pages = {
       "Roof Geometry is determined by the shape of your roof. Classifications are Hip, Flat, and Other. To achieve a Hip roof designation, 90% or more of the roof has to be hip in shape, like the photograph below. If you have a hip roof you are eligible for a significant discount. This is because the shape of your roof determines how wind flows around and over it. It has been proven that hip roofs carry these wind loads the best.",
       "If you have a hip roof you are eligible for a <span class='savings'>minimum discount of around 28%.</span>",
     ],
-    images: ["../images/education/pinellas-wind-mitigation-geometry.jpg"],
+    images: ["../Website images/HipRoof2.jpg"],
   },
   water: {
     title: "Secondary Water Resistance",
@@ -52,10 +52,7 @@ var pages = {
       "If you have a hip roof and Secondary Water Resistance installed on it you are able to receive a very large discount to the wind portion of your homeowners insurance. This is difficult to determine unless it is sealed from the inside by foam SWR barrier. You could also have proof of it being installed when your home was re-roofed such as bills or contracts from your roofer.",
       "A hip roof with SWR will receive <span class='savings'>approximately 32% discount</span> while any other roof shapes with SWR receive 6%.",
     ],
-    images: [
-      "../images/education/stpetersburg-wind-mitigation-water.jpg",
-      "../images/education/stpetersburg-wind-mitigation-hip.jpg",
-    ],
+    images: ["../Website images/FoamSeal.JPG", "../Website images/SWR.JPG"],
   },
   opening: {
     title: "Opening Protection",
@@ -64,8 +61,8 @@ var pages = {
       "You can also receive a discount for having plywood shutters you can build yourself.  They must meet Section 1609 and Table 1609.1.2 of the 2007 Florida Building Code to be eligible for a discount. Click here for a video tutorial on how to build these yourself.",
     ],
     images: [
-      "../images/education/largo-wind-mitigation-window.jpg",
-      "../images/education/largo-wind-mitigation-openings.jpg",
+      "../Website images/Shutter.jpg",
+      "../Website images/PlywoodShutter.JPG",
     ],
   },
 };

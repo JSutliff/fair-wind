@@ -389,7 +389,7 @@ footer p {
     width: 10rem;
     background-color: #deaa28;
     border-radius: 10px;
-    color: #fff;
+    color: white;
     z-index: 2;
   }
   #cta:hover {
