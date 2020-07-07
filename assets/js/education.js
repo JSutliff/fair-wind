@@ -25,7 +25,7 @@ var pages = {
       "To receive the best discount for this category you must have ½” plywood or OSB roof sheathing attached by 8d nails spaced at 6” apart, or batten decking supporting wood shakes or shingles. <span class='savings'>The minimum discount for meeting these qualifications approximately 9%.</span>",
     ],
     images: [
-      "../Website images/spacing.jpg",
+      "../Website images/Spacing.JPG",
       "../Website images/Deck Thickness Photo 1 Inch Boards.JPG",
     ],
   },
