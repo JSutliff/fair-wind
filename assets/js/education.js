@@ -73,6 +73,14 @@ document.addEventListener(
     if (!event.target.matches(".education-btn")) return;
     const currentDisplay = event.target.dataset.name;
     const { title, paragraphs, images } = pages[currentDisplay];
+
+    if (currentDisplay === "opening") {
+      document
+        .getElementById("hurricane-video")
+        .classList.remove("hide-content");
+    } else {
+      document.getElementById("hurricane-video").classList.add("hide-content");
+    }
     if (paragraphs.length < 3) {
       paragraph2.classList.add("hide-content");
     } else {
