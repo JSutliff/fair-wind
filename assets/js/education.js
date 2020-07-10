@@ -65,6 +65,14 @@ var pages = {
       "../Website images/PlywoodShutter.JPG",
     ],
   },
+  resources: {
+    title: "Opening Protection",
+    paragraphs: [
+      '<strong>Check what strength your impact windows and hurricane shutters are: </strong> <a href="http://www.floridabuilding.org/pr/pr_app_srch.aspx">FBC Product Search</a> & <a href="http://www.miamidade.gov/building/pc-search_app.asp">Miami Dade Product Search</a><br><strong>Local Property Appraisers links:</strong> <a href="https://www.pascopa.com/">Hillsborough County</a><br><a href="https://www.hcpafl.org/x">Pasco County</a><br><strong>Find out what wind speeds your area/county can expect during a hurricane:</strong> <a href="http://www.floridabuilding.org/fbc/Wind_2010/Flyer_Wind_January2012.pdf">Wind Borne Debris Region Map</a>',
+      '<strong>Hurricane evacuation zone links for pinellas, pasco, hillsborough and state of florida </strong> <a href="http://kyz.pinellascounty.org/">http://kyz.pinellascounty.org/</a><br><a href="https://pascofloem.maps.arcgis.com/apps/webappviewer/index.html?id=9fa8f4cd8c4c4c2b943c4b4ec8f6fb84">Pasco</a><br><a href="https://hillsborough.maps.arcgis.com/apps/webappviewer/index.html?id=04f1084467564dff88729f668caed40a">Hillsborough</a><br><a href="https://www.floridadisaster.org/knowyourzone/">https://www.floridadisaster.org/knowyourzone/</a>',
+    ],
+    images: [],
+  },
 };
 
 document.addEventListener(
