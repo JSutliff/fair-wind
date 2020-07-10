@@ -25,6 +25,7 @@
 #hurricane-video {
   width: 100%;
 }
+
 @media only screen and (min-width: 770px) {
   #button-container {
     display: flex;
