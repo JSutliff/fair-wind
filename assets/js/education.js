@@ -89,6 +89,12 @@ document.addEventListener(
     } else {
       document.getElementById("hurricane-video").classList.add("hide-content");
     }
+
+    if (currentDisplay === "resources") {
+      document.getElementById("img-0").classList.add("hide-content");
+    } else {
+      document.getElementById("img-0").classList.remove("hide-content");
+    }
     if (paragraphs.length < 3) {
       paragraph2.classList.add("hide-content");
     } else {
