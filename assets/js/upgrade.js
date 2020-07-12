@@ -16,7 +16,7 @@ var pages = {
       "To meet Section 2, titled Roof Covering, of the form your roof or the covering on your roof must meet the 2001 Florida Building Code. The only way to accomplish this is to have your roof replaced so that it can meet these newer codes. If you choose to have your roof redone you will also be eligible to meet Section 7 (Secondary Water Resistance) of the form. This is because most new roofs being constructed now are being installed with a Secondary Water Resistance system.",
       "To meet Section 3, titled Roof Deck Attachment, you must have your roof redone to meet the 2001 Florida Building Code. This would require taking off your current roof deck and having plywood or an OSB roof attached with a minimum of 6d nails spaced 6” on the edge and 12” in the field.",
       "To meet Section 5, titled Roof Geometry, you must have a hip roof. If you do not have a hip roof there is no other way to meet this category other than having a new roof put on your home. Which would be quite costly.",
-      "See the Wind Mitigation Education section for more details about these features and exactly what is required to meet them.",
+      'See the <a href="./wind-mitigation-education.html">Wind Mitigation Education</a> section for more details about these features and exactly what is required to meet them.',
     ],
     images: [],
   },
@@ -88,7 +88,7 @@ document.addEventListener(
     }
     pageTitleElem.textContent = title;
     for (let i = 0; i < paragraphs.length; i++) {
-      document.getElementById("education-paragraph-" + i).textContent =
+      document.getElementById("education-paragraph-" + i).innerHTML =
         pages[currentDisplay].paragraphs[i];
     }
     for (let i = 0; i < images.length; i++) {
