@@ -83,6 +83,9 @@ document.addEventListener(
     if (images.length < 2) {
       img1.classList.add("hide-content");
     }
+    if (images.length < 1) {
+      img0.classList.add("hide-content");
+    }
     pageTitleElem.textContent = title;
     for (let i = 0; i < paragraphs.length; i++) {
       document.getElementById("education-paragraph-" + i).textContent =
