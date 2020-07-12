@@ -43,7 +43,10 @@ var pages = {
     paragraphs: [
       "If you have a hip roof you are eligible for a <span class='savings'>minimum discount of around 28%.</span>",
       "Roof Geometry is determined by the shape of your roof. Classifications are Hip, Flat, and Other. To achieve a Hip roof designation, 90% or more of the roof has to be hip in shape, like the photograph above. If you have a hip roof you are eligible for a significant discount. This is because the shape of your roof determines how wind flows around and over it. It has been proven that hip roofs carry these wind loads the best.",
+<<<<<<< HEAD
       
+=======
+>>>>>>> dc63585e2185cfda1f0430a14deba25adf13dbfc
     ],
     images: ["../Website images/HipRoof2.jpg"],
   },

@@ -25,8 +25,17 @@ var pages = {
     paragraphs: [
       "To meet Section 4, titled Roof to Wall Attachment you must have a metal connection between the roof truss system and the top of the wall. These are commonly called clips or straps. If you do not have them they can be added to the home by crawling around the attic and installing them, or by removing the exterior soffit and installing them from outside.",
       "The most common types are clips pictured in the first photo or straps which are pictured in the second photo. If you are lacking these you most likely have toe nails which are basic and do not qualify for any discounts. See the third photo.",
+<<<<<<< HEAD
     ],
     images: ["../Website images/Clip.JPG", "../Website images/StrapFront.jpg", "../Website images/ToeNailPhoto.jpg"],
+=======
+    ],
+    images: [
+      "../Website images/Clip.JPG",
+      "../Website images/StrapFront.jpg",
+      "../Website images/ToeNailPhoto.jpg",
+    ],
+>>>>>>> dc63585e2185cfda1f0430a14deba25adf13dbfc
   },
   section6: {
     title: "Secondary Water Resistance",
@@ -42,16 +51,33 @@ var pages = {
       "To meet Section 7, titled Opening Protection, you must have a system of protections for ALL the openings on your home. These openings include doors, windows, garage  doors, doggie doors and attic vents. The most common types of protections are impact rated hurricane shutters, impact rated glass windows and plywood shutters. Other coverings can include anything that is not hurricane rated, such as non-rated shutters or products that cannot be identified.",
       "Wood panels are quite easy to build and install. Homeowners with basic knowledge and tools can build wood panels to receive a small discount. These panels must meet Section 1609 and Table 1609.1.4 of the 2007 Florida Building Code to be eligible for a discount. There is a tutorial video in the education section under the impact windows button which teaches you how to build these. If you already have plywood shutters they must be on site and correctly meet the building code when we come to inspect your home to receive this discount.",
       "Hurricane rated openings are usually installed by professional contractors. These opening protections must meet the requirements of the Miami-Dade County PA 201, 202 and 203, or Florida Building Code 201, 202 and 203, or ASTM 1886 and ASTM E 1996 (Missile Level C—9 lb). To know if your storm shutters meet these ratings you should have your receipts or contracts from the installers who put them on, or you can sometimes look on the windows to see the rating codes etched in them.",
+<<<<<<< HEAD
     ],
     images: ["../Website images/Shutter.JPG", "../Website images/PlywoodShutter.JPG"],
+=======
+    ],
+    images: [
+      "../Website images/Shutter.JPG",
+      "../Website images/PlywoodShutter.JPG",
+    ],
+>>>>>>> dc63585e2185cfda1f0430a14deba25adf13dbfc
   },
   strengthening: {
     title: "Gable End Bracing",
     paragraphs: [
       "No longer on the new wind mitigation form as of Feb 1, 2012 Gable End Bracing is something you can do to strengthen the gable ends in your home. If you have gable ends and they are not braced this is a relatively easy upgrade that can be done to your home.",
       "Some homeowners with knowledge of construction and woodworking may even be able to do this themselves, although it is not recommended. Please contact myself, a licensed roofing contractor or general contractor to go into more detail about bracing gable ends. Here are some pictures of common types of gable end bracing.",
+<<<<<<< HEAD
     ],
     images: ["../Website images/Xbracing.JPG", "../Website images/Xbrace2.JPG", "../Website images/Xbrace.jpg"],
+=======
+    ],
+    images: [
+      "../Website images/Xbracing.JPG",
+      "../Website images/Xbrace2.JPG",
+      "../Website images/Xbrace.jpg",
+    ],
+>>>>>>> dc63585e2185cfda1f0430a14deba25adf13dbfc
   },
 };
 
