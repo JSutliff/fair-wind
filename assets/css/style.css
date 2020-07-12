@@ -228,8 +228,8 @@ body {
   transform: translateY(4px);
 }
 #title {
-  margin-bottom: 5rem;
-  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
 }
 #about {
   width: 80%;
@@ -457,7 +457,8 @@ footer p {
     margin-top: 50px;
   }
   iframe {
-    height: 600px;
+    max-width: 650px;
+    height: 400px;
   }
   footer {
     height: 8.8rem;
