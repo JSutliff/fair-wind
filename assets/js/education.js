@@ -12,11 +12,11 @@ var pages = {
   covering: {
     title: "Roof Covering",
     paragraphs: [
-      "All roof coverings over the main living area of the home are subject to inspection. If the covering(s) meets the 2001 Florida Building Code or the 1994 South Florida Building Code you are able to receive a discount.",
       "To determine if your roof meets these codes you must be able to show proof that your home or roof was constructed after 1994 and meets the SFB Code, or February 28, 2002  and meets the FBC Code. This can be done with receipts or contracts from roofers, types of covering installed on the roof, product approval numbers or a date of construction.",
       "Any shingles installed or roofs constructed after March 1, 2002 automatically meets the 2001 Florida Building Code and will qualify you for a discount. <span class='savings'>The minimum discount you may receive by meeting the 2001 FBC on Roof Covering is approximately 7%.</span>",
+      "All roof coverings over the main living area of the home are subject to inspection. If the covering(s) meets the 2001 Florida Building Code or the 1994 South Florida Building Code you are able to receive a discount.",
     ],
-    images: ["../Website images/Roof Covering.gif"],
+    images: ["../Website images/Roof Covering.jpg"],
   },
   attachment: {
     title: "Roof Deck Attachment",
@@ -41,8 +41,9 @@ var pages = {
   geometry: {
     title: "Roof Geometry",
     paragraphs: [
-      "Roof Geometry is determined by the shape of your roof. Classifications are Hip, Flat, and Other. To achieve a Hip roof designation, 90% or more of the roof has to be hip in shape, like the photograph below. If you have a hip roof you are eligible for a significant discount. This is because the shape of your roof determines how wind flows around and over it. It has been proven that hip roofs carry these wind loads the best.",
       "If you have a hip roof you are eligible for a <span class='savings'>minimum discount of around 28%.</span>",
+      "Roof Geometry is determined by the shape of your roof. Classifications are Hip, Flat, and Other. To achieve a Hip roof designation, 90% or more of the roof has to be hip in shape, like the photograph above. If you have a hip roof you are eligible for a significant discount. This is because the shape of your roof determines how wind flows around and over it. It has been proven that hip roofs carry these wind loads the best.",
+      
     ],
     images: ["../Website images/HipRoof2.jpg"],
   },
@@ -57,8 +58,9 @@ var pages = {
   opening: {
     title: "Opening Protection",
     paragraphs: [
-      "The last category is Opening Protections. To be certified as having hurricane resistant opening protections all openings must be protected by impact resistant coverings. They must meet the requirements of the Miami-Dade County PA 201, 202 and 203, Florida Building Code 201, 202 and 203, ASTM 1886 and ASTM E 1996 (Missile Level C—9 lb). If you have hurricane shutters they should have these codes on them or have been supplied when you purchased them. If you meet these requirements you are eligible for a <span class='savings'>minimum 39% insurance reduction!</span>",
-      "You can also receive a discount for having plywood shutters you can build yourself.  They must meet Section 1609 and Table 1609.1.2 of the 2007 Florida Building Code to be eligible for a discount. Click here for a video tutorial on how to build these yourself.",
+      "The last category is Opening Protections. To be certified as having hurricane resistant opening protections all openings must be protected by impact resistant coverings OR have hurricane impact resistant windows. The products must meet one of the codes listed below. Check for etchings, stickers or stamps located on the products or in the paperwork supplied when purchasing. If you meet these requirements you are eligible for a <span class='savings'>minimum 39% insurance reduction!</span>",
+      "You can also receive a discount for having plywood shutters you can build yourself.  They must meet Section 1609 and Table 1609.1.2 of the 2007 Florida Building Code to be eligible for a discount. <br><br> Scroll down to see the video tutorial on how to build these yourself.",
+      "Hurricane shutters must meet one of the following test ratings: Miami-Dade County PA 201, 202 and 203. ASTM E1886 & E1996. Florida Building Code (TAS) 201, 202, 203. Or SSTD-12.",
     ],
     images: [
       "../Website images/Shutter.jpg",
@@ -68,8 +70,8 @@ var pages = {
   resources: {
     title: "Additional Resources",
     paragraphs: [
-      '<strong>Check what strength your impact windows and hurricane shutters are: <br></strong> <a href="http://www.floridabuilding.org/pr/pr_app_srch.aspx">FBC Product Search</a> & <a href="http://www.miamidade.gov/building/pc-search_app.asp">Miami Dade Product Search</a><br><strong>Local Property Appraisers links:<br></strong> <a href="https://www.pascopa.com/">Hillsborough County</a><br><a href="https://www.hcpafl.org/x">Pasco County</a><br><strong>Find out what wind speeds your area/county can expect during a hurricane:<br></strong> <a href="http://www.floridabuilding.org/fbc/Wind_2010/Flyer_Wind_January2012.pdf">Wind Borne Debris Region Map</a>',
-      '<strong>Hurricane evacuation zone links for pinellas, pasco, hillsborough and state of florida </strong> <a href="http://kyz.pinellascounty.org/">Pinellas County</a><br><a href="https://pascofloem.maps.arcgis.com/apps/webappviewer/index.html?id=9fa8f4cd8c4c4c2b943c4b4ec8f6fb84">Pasco County</a><br><a href="https://hillsborough.maps.arcgis.com/apps/webappviewer/index.html?id=04f1084467564dff88729f668caed40a">Hillsborough County</a><br><a href="https://www.floridadisaster.org/knowyourzone/">Florida Disaster</a>',
+      '<strong>Check what strength your impact windows and hurricane shutters are: <br></strong> <a href="http://www.floridabuilding.org/pr/pr_app_srch.aspx " target="_blank">FBC Product Search </a> <br> <a href="http://www.miamidade.gov/building/pc-search_app.asp"target="_blank">Miami Dade Product Search</a><br><br><strong>Local Property Appraisers links:<br></strong> <a href="https://www.pcpao.org/"target="_blank">Pinellas County</a><br> <a href="https://www.pascopa.com/"target="_blank">Pasco County</a><br><a href="https://www.hcpafl.org/ "target="_blank">Hillsborough County</a>',
+      '<strong>Check your hurricane evacuation for Pinellas, Pasco and Hillsborough counties or the entire State of Florida </strong><br> <a href="http://kyz.pinellascounty.org/">Pinellas County</a><br><a href="https://pascofloem.maps.arcgis.com/apps/webappviewer/index.html?id=9fa8f4cd8c4c4c2b943c4b4ec8f6fb84">Pasco County</a><br><a href="https://hillsborough.maps.arcgis.com/apps/webappviewer/index.html?id=04f1084467564dff88729f668caed40a">Hillsborough County</a><br><a href="https://www.floridadisaster.org/knowyourzone/">Florida Evacuation Lookup</a><br><strong>Find out what wind speeds your area/county can expect during a hurricane:<br></strong> <a href="http://www.floridabuilding.org/fbc/Wind_2010/Flyer_Wind_January2012.pdf"target="_blank">Wind Borne Debris Region Map</a>',
     ],
     images: [],
   },
